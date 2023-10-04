@@ -20,7 +20,7 @@ const portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <h1>To Do App</h1>
+            <h1>To-Do &nbsp;&nbsp;&nbsp;&nbsp; App</h1>
           </div>
           <p className='top__margin'>Its a App to create daily reminder tasks</p>
           <p className='bottom_margin'><span class="highlighted-text">Technology used :</span> Html, javascript, css, Nodejs, mongodb </p>
