@@ -5,7 +5,7 @@
 }
 .portfolio__item{
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -21,8 +21,20 @@
     border-bottom: 1px solid white;
    
 }
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+.highlighted-text {
+    color: var(--color-primary); /* Set the desired text color */
+    font-weight: bold; /* Optionally, make the text bold */
+    /* Add any other styles you want to apply to the highlighted text */
+}
+
+
+.portfolio__item .top__margin{
+    margin-top: 1.2rem ;
+    justify-content: center;
+}
+.portfolio__item .bottom_margin{
+    margin-bottom: 1.2rem ;
+    justify-content: center;
 }
 .portfolio__item-cta{
    
