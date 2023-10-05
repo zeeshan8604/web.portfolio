@@ -37,7 +37,7 @@ const Contact = () => {
             <ImWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>Zeeshan Ahmed</h5>
-            <a href='https://wa.me/8604435248' target='_blank'>Send a Messsage</a>
+            <a href='https://wa.me/+918604435248' target='_blank'>Send a Messsage</a>
         </article>
       </div>
       <form ref={form} onSubmit={sendEmail}>
