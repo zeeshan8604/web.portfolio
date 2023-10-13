@@ -31,6 +31,20 @@ const portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
+            <h1>Weather App</h1>
+          </div>
+          <p className='top__margin'>It is simple Weather website</p>
+          <p className='bottom_margin'><span class="highlighted-text">Technology used :</span> Html, javascript, css &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/zeeshan8604/Weather.net" className='btn' target='_blank'>GitHub</a>
+            <a href="https://zeeshan8604.github.io/Weather.net/" className='btn btn-primary' target='_blank'>Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
             <h1>Simple Calculator</h1>
           </div>
           <p className='top__margin'>It is simple Calculator website</p>
