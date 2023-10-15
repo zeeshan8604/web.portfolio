@@ -2,8 +2,8 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/2.me.jpeg'
 // import ME from '../../assets/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+// import {FaAward} from 'react-icons/fa'
+// import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 const about = () => {
   return (
@@ -23,28 +23,21 @@ const about = () => {
 
       <div className="about__content">
         <div className="about__cards">
-          <article className='about__card'>
-            <FaAward className='about__icon'/>
-            <h5>Experience</h5>
-            <small>3+ years</small>
-          </article>
-
-          <article className='about__card'>
-            <FiUsers className='about__icon'/>
-            <h5>cliens</h5>
-            <small>200+ worldwide</small>
-          </article>
 
           <article className='about__card'>
             <VscFolderLibrary className='about__icon'/>
             <h5>Projects</h5>
-            <small>80+ completed</small>
+            <small>10+completed</small>
           </article>
 
         </div>
-        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Voluptates illo labore, et voluptate molestiae odio est excepturi optio 
-          ullam quibusdam deleniti totam ducimus vero assumenda natus, tenetur placeat cupiditate? Vitae?
+        <p >Welcome <br />
+
+My Name is Zeeshan Ahmed. <br />
+I am a third-year student pursuing my Bachelor's degree 
+in Computer Science, with a passion for technology and innovation. 
+Currently enrolled in a B.Tech program, my academic journey has equipped me with a strong foundation in
+ various aspects of computer science, including programming, algorithms, and data structures.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
